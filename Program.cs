@@ -4,10 +4,10 @@ using System;
 using System.Threading.Tasks;
 public class Program
 {
-    private const string topicEndpoint = "https://hrtopic-gabe.brazilsouth-1.eventgrid.azure.net/api/events ";
+    private const string topicEndpoint = "<topic-endpoint>";
     /* Update the topicEndpoint string constant by setting its value to the Topic
        Endpoint of the Event Grid topic that you recorded previously in this lab. */
-    private const string topicKey = "BNw7zRqDQQeTO1u5Q0FawAuGimeRoQB370XggVjOKwbb8p89PZO8JQQJ99CBACZoyfiXJ3w3AAABAZEGL8J1";
+    private const string topicKey = "<topic-secretkey>";
     /* Update the topicKey string constant by setting its value to the Key of the Event Grid topic that you recorded previously in this lab. */
     public static async Task Main(string[] args)
     {
